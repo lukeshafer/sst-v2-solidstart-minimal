@@ -1,0 +1,19 @@
+import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};export { h as handler } from './chunks/runtime.mjs';
+import 'node:http';
+import 'node:https';
+import 'node:zlib';
+import 'node:stream';
+import 'node:buffer';
+import 'node:util';
+import 'node:url';
+import 'node:net';
+import 'node:fs';
+import 'node:path';
+import 'node:async_hooks';
+import 'vinxi/lib/invariant';
+import 'vinxi/lib/path';
+import 'solid-js/web';
+import 'solid-js/web/storage';
+import 'sst/node/event-bus';
+import 'solid-js';
+//# sourceMappingURL=index.mjs.map

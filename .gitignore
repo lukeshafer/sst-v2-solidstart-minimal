@@ -1,5 +1,5 @@
-
 dist
+!/dist
 .solid
 .output
 .vercel
@@ -27,3 +27,5 @@ gitignore
 # System Files
 .DS_Store
 Thumbs.db
+
+.sst/
