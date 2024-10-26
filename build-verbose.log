@@ -1,0 +1,273 @@
+2024-10-26T21:33:11.008Z    +64ms [debug] Config loaded {"version":"2.44.0","cdkVersion":"2.161.1","constructsVersion":"10.3.0","config":{"name":"solidstart-sst2-dropin","region":"us-east-2","stage":"luke","ssmPrefix":"/sst/solidstart-sst2-dropin/luke/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":238,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1729978390957.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":137}},"bytes":319}}},"paths":{"config":"/home/luke/Code/test-repos/test-nitro-sst/dropin/sst.config.ts","root":"/home/luke/Code/test-repos/test-nitro-sst/dropin","out":"/home/luke/Code/test-repos/test-nitro-sst/dropin/.sst","artifacts":"/home/luke/Code/test-repos/test-nitro-sst/dropin/.sst/artifacts"}}
+2024-10-26T21:33:11.957Z   +949ms [debug] Synthesizing stacks...
+2024-10-26T21:33:11.965Z     +8ms [debug] Using AWS profile undefined
+2024-10-26T21:33:11.969Z     +4ms [debug] Created AWS client STSClient
+2024-10-26T21:33:12.103Z   +134ms [debug] Using identity Account: 763226879178 User: AIDA3DM656TFB5A43Z5KR
+2024-10-26T21:33:12.112Z     +9ms [debug] Generating types in /home/luke/Code/test-repos/test-nitro-sst/dropin/.sst/types
+2024-10-26T21:33:12.255Z   +143ms [debug] Running "pnpm build" script
+
+> example-basic@ build /home/luke/Code/test-repos/test-nitro-sst/dropin
+> sst bind vinxi build
+
+2024-10-26T21:33:13.212Z    +67ms [debug] Config loaded {"version":"2.44.0","cdkVersion":"2.161.1","constructsVersion":"10.3.0","config":{"name":"solidstart-sst2-dropin","region":"us-east-2","stage":"luke","ssmPrefix":"/sst/solidstart-sst2-dropin/luke/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":238,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"sst/constructs","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1729978393162.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":137}},"bytes":319}}},"paths":{"config":"/home/luke/Code/test-repos/test-nitro-sst/dropin/sst.config.ts","root":"/home/luke/Code/test-repos/test-nitro-sst/dropin","out":"/home/luke/Code/test-repos/test-nitro-sst/dropin/.sst","artifacts":"/home/luke/Code/test-repos/test-nitro-sst/dropin/.sst/artifacts"}}
+2024-10-26T21:33:14.237Z  +1025ms [debug] Using AWS profile undefined
+2024-10-26T21:33:14.241Z     +4ms [debug] Created AWS client IoTClient
+2024-10-26T21:33:14.241Z     +0ms [debug] Getting IoT endpoint
+2024-10-26T21:33:14.256Z    +15ms [debug] Synthesizing stacks...
+2024-10-26T21:33:14.265Z     +9ms [debug] Created AWS client STSClient
+2024-10-26T21:33:14.370Z   +105ms [debug] Using IoT endpoint: a2czpivodm1sxc-ats.iot.us-east-2.amazonaws.com
+2024-10-26T21:33:14.371Z     +1ms [debug] Initializing bootstrap context
+2024-10-26T21:33:14.374Z     +3ms [debug] Created AWS client CloudFormationClient
+2024-10-26T21:33:14.451Z    +77ms [debug] Using identity Account: 763226879178 User: AIDA3DM656TFB5A43Z5KR
+2024-10-26T21:33:14.461Z    +10ms [debug] Generating types in /home/luke/Code/test-repos/test-nitro-sst/dropin/.sst/types
+2024-10-26T21:33:14.608Z   +147ms [debug] Running 1 deferred tasks with concurrency: 7
+2024-10-26T21:33:14.748Z   +140ms [debug] Loaded bootstrap status
+2024-10-26T21:33:14.748Z     +0ms [debug] Bootstrap context initialized {"status":"ready","version":"7.3","bucket":"sstbootstrap-useast29d0b9a0c-1a77s72w0hzcv"}
+2024-10-26T21:33:14.752Z     +4ms [debug] Created AWS client S3Client
+2024-10-26T21:33:14.862Z   +110ms [debug] undefined
+2024-10-26T21:33:14.862Z     +0ms [debug] Loading v2 AWS SDK
+2024-10-26T21:33:14.862Z     +0ms [debug] Finished synthesizing
+2024-10-26T21:33:15.004Z   +142ms [debug] IoT connected
+2024-10-26T21:33:15.016Z    +12ms [debug] Created AWS client LambdaClient
+vinxi v0.4.3
+
+
+⚙  Building your app...
+removing /home/luke/Code/test-repos/test-nitro-sst/dropin/.vinxi/build/ssr
+removing /home/luke/Code/test-repos/test-nitro-sst/dropin/.vinxi/build/client
+removing /home/luke/Code/test-repos/test-nitro-sst/dropin/.vinxi/build/server-fns
+vinxi v0.4.3
+
+
+⚙ Building your router ssr...
+
+
+📦 Compiling ssr router...
+vinxi building router ssr in http mode
+vite v5.4.10 building SSR bundle for production...
+transforming...
+✓ 48 modules transformed.
+rendering chunks...
+.vinxi/build/ssr/.vite/manifest.json                 1.31 kB
+.vinxi/build/ssr/assets/ssr-rN2XJZw8.css             0.38 kB
+.vinxi/build/ssr/assets/HttpStatusCode-DH8IeaZe.js   0.28 kB
+.vinxi/build/ssr/index.js                            0.33 kB
+.vinxi/build/ssr/_...404_.js                         0.52 kB
+.vinxi/build/ssr/assets/index-BhCdQPVl.js            2.74 kB
+.vinxi/build/ssr/ssr.js                             27.78 kB
+✓ built in 692ms
+✔ build done
+⚙ Built your router ssr successfully
+vinxi v0.4.3
+
+
+⚙ Building your router client...
+
+
+📦 Compiling client router...
+vinxi building router client in client mode
+vite v5.4.10 building for production...
+transforming...
+✓ 59 modules transformed.
+rendering chunks...
+computing gzip size...
+.vinxi/build/client/_build/server-functions-manifest.json      0.10 kB │ gzip: 0.10 kB
+.vinxi/build/client/_build/.vite/manifest.json                 1.26 kB │ gzip: 0.35 kB
+.vinxi/build/client/_build/assets/client-rN2XJZw8.css          0.38 kB │ gzip: 0.27 kB
+.vinxi/build/client/_build/assets/HttpStatusCode-DjTx85av.js   0.03 kB │ gzip: 0.05 kB
+.vinxi/build/client/_build/assets/_...404_-B3ZuY5Ua.js         0.52 kB │ gzip: 0.36 kB
+.vinxi/build/client/_build/assets/client-D7BLReSY.js          21.48 kB │ gzip: 8.80 kB
+.vinxi/build/client/_build/assets/index-DxR4cHO8.js           24.02 kB │ gzip: 6.60 kB
+.vinxi/build/client/_build/assets/index-Dv-hs8cT.js           24.92 kB │ gzip: 9.63 kB
+✓ built in 1.24s
+✔ build done
+⚙ Built your router client successfully
+vinxi v0.4.3
+
+
+⚙ Building your router server-fns...
+
+
+📦 Compiling server-fns router...
+vinxi building router server-fns in http mode
+vite v5.4.10 building SSR bundle for production...
+transforming...
+✓ 48 modules transformed.
+rendering chunks...
+.vinxi/build/server-fns/_server/.vite/manifest.json       1.72 kB
+.vinxi/build/server-fns/_server/assets/app-rN2XJZw8.css   0.38 kB
+.vinxi/build/server-fns/_server/entry.mjs                 0.19 kB
+.vinxi/build/server-fns/_server/index.mjs                 0.32 kB
+.vinxi/build/server-fns/_server/_...404_.mjs              0.68 kB
+.vinxi/build/server-fns/_server/c_oda60i.mjs              0.83 kB
+.vinxi/build/server-fns/_server/index2.mjs                2.74 kB
+.vinxi/build/server-fns/_server/fetchEvent.mjs            4.00 kB
+.vinxi/build/server-fns/_server/app.mjs                  13.82 kB
+.vinxi/build/server-fns/_server/server-fns.mjs           55.41 kB
+✓ built in 874ms
+✔ build done
+⚙ Built your router server-fns successfully
+
+
+⚙  Preparing app for aws_lambda...
+[vinxi] ✔ Generated public dist/client
+[vinxi] ℹ Building Nitro Server (preset: aws_lambda)
+[vinxi] ✔ Nitro Server built
+2024-10-26T21:33:27.601Z +15346ms [debug] Generated build ID fb258ef99b9f5804a068f2ecf68e6773
+2024-10-26T21:33:27.623Z    +22ms [debug] Running 1 deferred tasks with concurrency: 7
+2024-10-26T21:33:27.626Z     +3ms [debug] Building function c8dbee6bd8fec45e1df78328a75d5f495416277940
+2024-10-26T21:33:27.636Z    +10ms [debug] Publishing event {"type":"function.build.started","properties":{"functionID":"c8dbee6bd8fec45e1df78328a75d5f495416277940"},"sourceID":"8ab40d39d99865d6dbc664a3a5da35a5"}
+2024-10-26T21:33:27.775Z   +139ms [debug] Publishing event {"type":"function.build.failed","properties":{"functionID":"c8dbee6bd8fec45e1df78328a75d5f495416277940","errors":["Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/auth/httpAuthSchemeProvider.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/index.js","145 │ var import_core = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/index.js","286 │ var import_core2 = require(\"@aws-sdk/core\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.js","6 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.shared.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/auth/httpAuthSchemeProvider.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js","511 │ var import_core = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js","651 │ var import_core2 = require(\"@aws-sdk/core\");","Could not resolve \"uuid\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js","654 │ var import_uuid = require(\"uuid\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.js","6 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.shared.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/auth/httpAuthSchemeProvider.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/index.js","61 │ var import_core = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/index.js","521 │ var import_core2 = require(\"@aws-sdk/core\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.js","6 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.shared.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.shared.js","5 │ const core_2 = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/auth/httpAuthSchemeProvider.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/index.js","53 │ var import_core = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/index.js","305 │ var import_core2 = require(\"@aws-sdk/core\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js","6 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js","5 │ const core_2 = require(\"@smithy/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js","9 │ const core_1 = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/auth/httpAuthSchemeProvider.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/index.js","256 │ var import_core = require(\"@aws-sdk/core\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/index.js","1280 │ var import_client = require(\"@aws-sdk/core/client\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js","6 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js","10 │ const core_2 = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js","4 │ const core_1 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js","5 │ const core_2 = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js","35 │ var import_client = require(\"@aws-sdk/core/client\");","Could not resolve \"tslib\"","dist/server/node_modules/@aws-sdk/credential-provider-http/dist-cjs/fromHttp/fromHttp.js","4 │ const tslib_1 = require(\"tslib\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-http/dist-cjs/fromHttp/fromHttp.js","5 │ const client_1 = require(\"@aws-sdk/core/client\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js","50 │ var import_client = require(\"@aws-sdk/core/client\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js","37 │ var import_client = require(\"@aws-sdk/core/client\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js","55 │ var import_client = require(\"@aws-sdk/core/client\");","Could not resolve \"@aws-sdk/core/client\"","dist/server/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js","4 │ const client_1 = require(\"@aws-sdk/core/client\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js","395 │ var import_core = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js","440 │ var import_core2 = require(\"@smithy/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js","33 │ var import_core = require(\"@smithy/core\");","Could not resolve \"@aws-sdk/core\"","dist/server/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js","69 │ var import_core2 = require(\"@aws-sdk/core\");","Could not resolve \"@smithy/core\"","dist/server/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js","172 │ var import_core = require(\"@smithy/core\");","Could not resolve \"uuid\"","dist/server/node_modules/@smithy/middleware-retry/dist-cjs/index.js","51 │ var import_uuid = require(\"uuid\");","Could not resolve \"@smithy/core/protocols\"","dist/server/node_modules/@smithy/smithy-client/dist-cjs/index.js","139 │ var import_protocols = require(\"@smithy/core/protocols\");"]},"sourceID":"8ab40d39d99865d6dbc664a3a5da35a5"}
+
+Error: There was a problem bundling the SSR function for the "ServerFunction" Site.
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/auth/httpAuthSchemeProvider.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/index.js
+145 │ var import_core = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/index.js
+286 │ var import_core2 = require("@aws-sdk/core");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.js
+6 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-eventbridge/dist-cjs/runtimeConfig.shared.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/auth/httpAuthSchemeProvider.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js
+511 │ var import_core = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js
+651 │ var import_core2 = require("@aws-sdk/core");
+Could not resolve "uuid"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/index.js
+654 │ var import_uuid = require("uuid");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.js
+6 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-ssm/dist-cjs/runtimeConfig.shared.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/auth/httpAuthSchemeProvider.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/index.js
+61 │ var import_core = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/index.js
+521 │ var import_core2 = require("@aws-sdk/core");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.js
+6 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.shared.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sso-oidc/dist-cjs/runtimeConfig.shared.js
+5 │ const core_2 = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/auth/httpAuthSchemeProvider.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/index.js
+53 │ var import_core = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/index.js
+305 │ var import_core2 = require("@aws-sdk/core");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.js
+6 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sso/dist-cjs/runtimeConfig.shared.js
+5 │ const core_2 = require("@smithy/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/STSClient.js
+9 │ const core_1 = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/auth/httpAuthSchemeProvider.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/index.js
+256 │ var import_core = require("@aws-sdk/core");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/index.js
+1280 │ var import_client = require("@aws-sdk/core/client");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js
+6 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.js
+10 │ const core_2 = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js
+4 │ const core_1 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/client-sts/dist-cjs/runtimeConfig.shared.js
+5 │ const core_2 = require("@smithy/core");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-env/dist-cjs/index.js
+35 │ var import_client = require("@aws-sdk/core/client");
+Could not resolve "tslib"
+dist/server/node_modules/@aws-sdk/credential-provider-http/dist-cjs/fromHttp/fromHttp.js
+4 │ const tslib_1 = require("tslib");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-http/dist-cjs/fromHttp/fromHttp.js
+5 │ const client_1 = require("@aws-sdk/core/client");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-ini/dist-cjs/index.js
+50 │ var import_client = require("@aws-sdk/core/client");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-process/dist-cjs/index.js
+37 │ var import_client = require("@aws-sdk/core/client");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-sso/dist-cjs/index.js
+55 │ var import_client = require("@aws-sdk/core/client");
+Could not resolve "@aws-sdk/core/client"
+dist/server/node_modules/@aws-sdk/credential-provider-web-identity/dist-cjs/fromTokenFile.js
+4 │ const client_1 = require("@aws-sdk/core/client");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js
+395 │ var import_core = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/middleware-sdk-s3/dist-cjs/index.js
+440 │ var import_core2 = require("@smithy/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js
+33 │ var import_core = require("@smithy/core");
+Could not resolve "@aws-sdk/core"
+dist/server/node_modules/@aws-sdk/middleware-user-agent/dist-cjs/index.js
+69 │ var import_core2 = require("@aws-sdk/core");
+Could not resolve "@smithy/core"
+dist/server/node_modules/@smithy/middleware-endpoint/dist-cjs/index.js
+172 │ var import_core = require("@smithy/core");
+Could not resolve "uuid"
+dist/server/node_modules/@smithy/middleware-retry/dist-cjs/index.js
+51 │ var import_uuid = require("uuid");
+Could not resolve "@smithy/core/protocols"
+dist/server/node_modules/@smithy/smithy-client/dist-cjs/index.js
+139 │ var import_protocols = require("@smithy/core/protocols");
+
