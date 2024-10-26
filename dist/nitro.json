@@ -1,5 +1,5 @@
 {
-  "date": "2024-10-26T21:18:28.613Z",
+  "date": "2024-10-26T21:29:00.686Z",
   "preset": "aws_lambda",
   "framework": {
     "name": "nitro",
